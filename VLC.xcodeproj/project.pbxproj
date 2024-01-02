@@ -305,7 +305,6 @@
 		7DEC8BDF1BD67899006E1093 /* VLCFullscreenMovieTVViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DEC8BDD1BD67899006E1093 /* VLCFullscreenMovieTVViewController.xib */; };
 		7DEC8BE91BD68BC9006E1093 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7DEC8BE81BD68BC9006E1093 /* Settings.bundle */; };
 		7DEE16CE242B53E50004E88F /* VLCStoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE16CD242B53E50004E88F /* VLCStoreController.m */; };
-		7DEE16D0242B56520004E88F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DEE16CF242B56520004E88F /* StoreKit.framework */; };
 		7DF04F4D1961F2B8004A5429 /* web-download-fixed.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DF04F491961F2B8004A5429 /* web-download-fixed.png */; };
 		7DF04F4E1961F2B8004A5429 /* web-download.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DF04F4A1961F2B8004A5429 /* web-download.png */; };
 		7DF04F4F1961F2B8004A5429 /* web-open-fixed.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DF04F4B1961F2B8004A5429 /* web-open-fixed.png */; };
@@ -994,7 +993,6 @@
 		7DEC8BE81BD68BC9006E1093 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		7DEE16CC242B53E50004E88F /* VLCStoreController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLCStoreController.h; sourceTree = "<group>"; };
 		7DEE16CD242B53E50004E88F /* VLCStoreController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLCStoreController.m; sourceTree = "<group>"; };
-		7DEE16CF242B56520004E88F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		7DF04F491961F2B8004A5429 /* web-download-fixed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "web-download-fixed.png"; path = "Resources/web/web-download-fixed.png"; sourceTree = SOURCE_ROOT; };
 		7DF04F4A1961F2B8004A5429 /* web-download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "web-download.png"; path = "Resources/web/web-download.png"; sourceTree = SOURCE_ROOT; };
 		7DF04F4B1961F2B8004A5429 /* web-open-fixed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "web-open-fixed.png"; path = "Resources/web/web-open-fixed.png"; sourceTree = SOURCE_ROOT; };
@@ -1275,7 +1273,6 @@
 				7D8968711BD3058800F4EAAD /* LocalAuthentication.framework in Frameworks */,
 				7D2DF7C31B67777D00FB78AB /* libc++.tbd in Frameworks */,
 				7D4DF2181B55209200739326 /* CoreSpotlight.framework in Frameworks */,
-				7DEE16D0242B56520004E88F /* StoreKit.framework in Frameworks */,
 				7D84E4C91B41ABCE00EA7D1F /* CoreMedia.framework in Frameworks */,
 				7D84E4C61B41AB2800EA7D1F /* VideoToolbox.framework in Frameworks */,
 				8F91EC7F195E1DAB00F5BCBA /* AssetsLibrary.framework in Frameworks */,
@@ -1866,7 +1863,6 @@
 			isa = PBXGroup;
 			children = (
 				7D43A29D28FB40B3002C41B1 /* CarPlay.framework */,
-				7DEE16CF242B56520004E88F /* StoreKit.framework */,
 				7D8968701BD3058800F4EAAD /* LocalAuthentication.framework */,
 				7D2DF7C21B67777D00FB78AB /* libc++.tbd */,
 				7D4DF2171B55209200739326 /* CoreSpotlight.framework */,
@@ -4633,7 +4629,7 @@
 				CURRENT_PROJECT_VERSION = 575;
 				DEAD_CODE_STRIPPING = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 75GAHG3SZQ;
+				DEVELOPMENT_TEAM = 6WD93JL3HY;
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = YES;
 				EXCLUDED_SOURCE_FILE_NAMES = "";
@@ -4685,7 +4681,7 @@
 				CURRENT_PROJECT_VERSION = 575;
 				DEAD_CODE_STRIPPING = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 75GAHG3SZQ;
+				DEVELOPMENT_TEAM = 6WD93JL3HY;
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				EXCLUDED_SOURCE_FILE_NAMES = "";
@@ -4786,7 +4782,7 @@
 				CURRENT_PROJECT_VERSION = 575;
 				DEAD_CODE_STRIPPING = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 75GAHG3SZQ;
+				DEVELOPMENT_TEAM = 6WD93JL3HY;
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				EXCLUDED_SOURCE_FILE_NAMES = "iTunesArtwork*";
